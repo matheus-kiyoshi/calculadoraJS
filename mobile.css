@@ -1,0 +1,32 @@
+@media only screen and (max-width: 360px) {
+  .calculator-display {
+    width: calc(100vw - 20px);
+  }
+
+  .calculator-pad {
+    width: auto;
+    gap: 5px;
+  }
+
+  .calculator-pad .pad-button {
+    width: 55px;
+    height: 84px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 505px) {
+
+  .calculator-display {
+    width: calc(100vw - 40px);
+  }
+
+  .calculator-pad {
+    width: auto;
+    gap: 10px;
+  }
+
+  .calculator-pad .pad-button {
+    width: 65px;
+    height: 78px;
+  }
+}

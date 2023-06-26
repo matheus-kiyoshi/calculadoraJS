@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+  <title>Calculator app</title>
+</head>
+<body>
+
+ <main>
+
+  <div class="calculator">
+
+    <h1 id="calculator-title">calculadora</h1>
+    
+    <div class="calculator-display">
+      <p id="previous-operation"></p>
+      <p id="current-operation"></p>
+    </div>
+
+    <div class="calculator-pad">
+          <div class="row-1">
+            <button class="pad-button" class="number">7</button>
+            <button class="pad-button" class="number">8</button>
+            <button class="pad-button" class="number">9</button>
+            <button class="pad-button pad-excep">DEL</button>
+          </div>
+          <div class="row-2">
+            <button class="pad-button" class="number">4</button>
+            <button class="pad-button" class="number">5</button>
+            <button class="pad-button" class="number">6</button>
+            <button class="pad-button">+</button>
+          </div>
+          <div class="row-3">
+            <button class="pad-button" class="number">1</button>
+            <button class="pad-button" class="number">2</button>
+            <button class="pad-button" class="number">3</button>
+            <button class="pad-button">-</button>
+          </div>
+          <div class="row-4">
+            <button class="pad-button">.</button>
+            <button class="pad-button" class="number">0</button>
+            <button class="pad-button">/</button>
+            <button class="pad-button">*</button>
+          </div>
+          <div class="row-5">
+            <button class="pad-button pad-excep last-row-button" style="width: calc(50% - 15px);">RESET</button>
+            <button class="pad-button pad-equal last-row-button" style="width: calc(50% - 15px);">=</button>
+          </div>
+    </div>
+
+  </div>
+
+ </main>
+
+ <script src="script.js"></script>
+ 
+</body>
+</html>
