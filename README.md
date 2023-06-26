@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://calculadora-js-phi-seven.vercel.app)
+- Live Site URL: [Calculadora JavaScript](https://calculadora-js-phi-seven.vercel.app)
 
 ## My process
 
@@ -49,5 +49,9 @@ Users should be able to:
 ## Acknowledgments
 
 Matheus Battisti - (https://www.youtube.com/@MatheusBattisti/)
+
+
 Gustavo Neitzke - (https://www.youtube.com/@GustavoNeitzke)
+
+
 Will Dev - (https://www.youtube.com/@will_dev)
